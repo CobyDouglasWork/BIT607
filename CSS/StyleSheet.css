@@ -1,0 +1,378 @@
+/*Text styling */ 
+body {
+    margin:0;
+    font-family:Arial
+}
+
+/*color */ 
+.banner {
+    background: white;
+    color: black;
+    font-size: 20px;
+}
+
+/*Make navigation blue */ 
+.navbar {
+  overflow: hidden;
+  background-color: #496bb3;
+  z-index: 1100;
+}
+
+/*Navigation text styling */ 
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*mouse on Navigation link */ 
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*home page styling first half */ 
+#IndexsSectionOne {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*store page styling */ 
+#MenuSectionOne {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+/*Hours page styling */ 
+#HoursSectionOne{
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+/*reservation page styling */ 
+#reservationSectionOne {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/*contact page styling */ 
+#ContactSectionOne {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+/*reservation page image placement */ 
+.reservation_image{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/*home page welcome message text styling */ 
+#WelcomeMSG {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+    margin-top: 0;
+}
+
+/*home page info text styling */ 
+#infoMSG {
+    font-size: 25px;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    padding: 120px 0px 40px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#specialMSG {
+    font-size: 25px;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*styling of buttons */ 
+#ButtonStyle {
+    background: green;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize !important;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    transition: all 0.2s ease 0s;
+}
+
+/*button hover look */ 
+#ButtonStyle:hover {
+    opacity: 0.7;
+}
+
+/*home page styling 2 part*/ 
+#IndexSectionTwo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/*contact page styling 2nd part */ 
+#ContactSectionTwo {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    text-align: center;
+}
+
+#MenuSectionTwo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#MenuSectionThree {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+  }
+
+.drinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 750px;
+    padding-top: 200px;
+}
+    
+.menu1 { grid-area: 1 / 1 / 2 / 2; }
+.menu2 { grid-area: 1 / 2 / 2 / 3; }
+
+/*grid for 2nd part of home page */ 
+.section_2_layout {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+/*grid areas */ 
+.image1 { grid-area: 1 / 2 / 2 / 3; }
+.image2 { grid-area: 1 / 1 / 2 / 2; }
+
+/*images styling */ 
+.images {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*footer styling */ 
+footer {
+    width: 100%;
+    height: fill;
+    background-color: black;
+    margin-top: 80px;
+}
+
+/*footer grid */ 
+.footer_layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color:white;
+}
+
+/*footer grid area */ 
+.footer1 { grid-area: 1 / 1 / 2 / 2; }
+.footer2 { grid-area: 2 / 1 / 3 / 2; }
+.footer3 { grid-area: 3 / 1 / 4 / 2; }
+.footer4 { grid-area: 1 / 2 / 2 / 3; }
+.footer5 { grid-area: 2 / 2 / 3 / 3; }
+.footer6 { grid-area: 3 / 2 / 4 / 3; }
+
+/*reservation grid */ 
+.reservation {
+height: 500px;
+width: 300px;
+margin-top: 100px;
+background-color: #ddd;
+text-align: center;
+margin-top: 80px;
+
+}
+
+/*contact grid styling */ 
+.contact {
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    }
+
+/*contact text styling */ 
+.contact p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/*contact heading 3 styling */ 
+.contact h3{
+    text-align: center;
+    margin-top:80px;
+}
+
+/*map in midddle of page */ 
+#map{
+    text-align: center; 
+}
+
+/*video in middle of page */ 
+#video{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*footer table styling */ 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  /*footer box styling */ 
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 25%;
+  } 
+
+  /*footer every even row change color */ 
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.input-field{
+    margin-bottom: 25px;
+}
+
+ /*reservation button green with radius*/ 
+.reservationButtonStyle{
+    background: #496bb3;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize !important;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    transition: all 0.2s ease 0s;
+}
+/*Responsive design*/ 
+@media(max-width: 500px) {
+    /*index page*/ 
+    .section_2_layout {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;      
+    }
+    /*getting images horizontal*/ 
+    .section_2_layout .images{
+        height : 90%;
+        width : 100%;
+    }
+
+    /*Navigation going vertical */ 
+    .navbar a {
+        width : 100%;
+        display: flex;
+    }
+    /*reservation across entire screen*/ 
+    .reservation {
+        width: 100%;
+        height: 600px;
+    }
+    /*all iframes fill width of page*/ 
+    iframe{
+        width: 100%;
+    }
+    /*getting drink menu vertical*/ 
+    .drinks {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2fr;
+    }
+    
+    .menu1{
+        text-align: center;
+    }
+        
+    .menu1 { grid-area: 1 / 1 / 2 / 3; }
+    .menu2 { grid-area: 2 / 1 / 2 / 3; }
+
+
+}
